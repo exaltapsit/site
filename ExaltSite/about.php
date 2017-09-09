@@ -14,34 +14,7 @@
                 padding-bottom: 20px;
             }
         </style>
-        <style type="text/css">
-      		.propic {
-      			border-radius: 200px;
-      			box-shadow: 0 0 20px rgba(0,0,0,.3);
-      			border: 5px solid #fff;
-      			width:150px;
-      			height:150px;
-      			margin: 0 auto;
-      		}
 
-      		.profile{
-      			box-shadow: 0 0 20px rgba(0,0,0,.3);
-      			border-radius: 10px;
-      			height: 375px;
-      			width:320px;
-      			padding-top: 40px;
-      		}
-
-      		.icon{
-      			color: #e02b20;
-      			font-size: 20px;
-      		}
-
-      		.icon:hover{
-      			text-decoration: none;
-      		}
-
-      	</style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
         <!-- Latest compiled and minified CSS -->
@@ -58,6 +31,61 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
         <link rel="stylesheet" href="css/main.css">
+
+        <style type="text/css">
+
+      		.propic {
+      			border-radius: 200px;
+      			box-shadow: 0 0 20px rgba(0,0,0,.3);
+      			border: 5px solid #fff;
+      			width:150px;
+      			height:150px;
+      			margin: 0 auto;
+      		}
+
+      		.profile{
+      			box-shadow: 0 0 20px rgba(0,0,0,.3);
+      			border-radius: 10px;
+      			height: 375px;
+      			width:320px;
+      			padding-top: 40px;
+            margin-left:auto;
+            margin-right:auto;
+      		}
+
+      		.icon{
+      			color: #e02b20;
+      			font-size: 20px;
+      		}
+
+      		.icon:hover{
+      			text-decoration: none;
+      		}
+
+          .col-lg-4{
+            margin: 100px auto;
+          }
+
+          .col-lg-6{
+            margin: 0px auto 100px auto;
+          }
+
+          @media only screen and (max-width: 380px){
+
+            .profile{
+              width: 280px;
+              height: 350px;
+            }
+
+            h3{
+              font-size: 20px;
+            }
+
+          }
+
+      	</style>
+
+
     </head>
     <body>
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="min-height:80px">
@@ -76,7 +104,7 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-            <li><a href="#" style=" line-height: 50px;">Home</a></li>
+            <li><a href="index.php" style=" line-height: 50px;">Home</a></li>
             <li><a href="#" style=" line-height: 50px;">Gallery</a></li>
             <li><a href="about.php" style=" line-height: 50px;">About Us</a></li>
             <li><a href="#" style=" line-height: 50px;">Registrations</a></li>
@@ -88,54 +116,46 @@
 
 
     <div class="container">
-      <div class="row" style="margin: 100px auto">
+      <div class="row" >
         <div class="col-lg-4">
           <div class="profile text-center" style="background: url('img/pattern1.jpg') no-repeat;">
             <img class="propic" src="img/user_icon.jpg">
-            <h3 style="margin-top: 40px;letter-spacing: 1px;">Harsh Vitra <a class="fa fa-facebook icon" href="https://	facebook.com/harshvitra"></a></h3>
-            <p style="letter-spacing: 0.5px;">ITSA President</p>
+            <h3 style="margin-top: 40px;letter-spacing: 1px;">Civil Department<a class="fa fa-facebook icon" href="https://	facebook.com/harshvitra"></a></h3>
+            <p style="letter-spacing: 0.5px;">President</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="profile text-center" style="background: url('img/pattern3.jpg') no-repeat;">
             <img class="propic" src="img/user_icon.jpg">
-            <h3 style="margin-top: 40px;letter-spacing: 1px;">Harsh Vitra <a class="fa fa-facebook icon" href="https://	facebook.com/harshvitra"></a></h3>
-            <p style="letter-spacing: 0.5px;">ITSA President</p>
+            <h3 style="margin-top: 40px;letter-spacing: 1px;">Computer Department<a class="fa fa-facebook icon" href="https://	facebook.com/harshvitra"></a></h3>
+            <p style="letter-spacing: 0.5px;">President</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="profile text-center" style="background: url('img/pattern2.jpg') no-repeat;">
             <img class="propic" src="img/user_icon.jpg">
-            <h3 style="margin-top: 40px;letter-spacing: 1px;">Harsh Vitra <a class="fa fa-facebook icon" href="https://	facebook.com/harshvitra"></a></h3>
-            <p style="letter-spacing: 0.5px;">ITSA President</p>
+            <h3 style="margin-top: 40px;letter-spacing: 1px;">EXTC Department<a class="fa fa-facebook icon" href="https://	facebook.com/harshvitra"></a></h3>
+            <p style="letter-spacing: 0.5px;">President</p>
           </div>
         </div>
       </div>
-      <div class="row"  style="margin: 100px auto">
-        <div class="col-lg-4" style="margin-left: auto;margin-right: auto;">
+      <div class="row"  >
+        <div class="col-lg-6">
           <div class="profile text-center" style="background: url('img/pattern1.jpg') no-repeat;">
             <img class="propic" src="img/user_icon.jpg">
-            <h3 style="margin-top: 40px;letter-spacing: 1px;">Harsh Vitra <a class="fa fa-facebook icon" href="https://	facebook.com/harshvitra"></a></h3>
-            <p style="letter-spacing: 0.5px;">ITSA President</p>
+            <h3 style="margin-top: 40px;letter-spacing: 1px;">IT Department<a class="fa fa-facebook icon" href="https://	facebook.com/harshvitra"></a></h3>
+            <p style="letter-spacing: 0.5px;">President</p>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="profile text-center" style="background: url('img/pattern3.jpg') no-repeat;">
-            <img class="propic" src="img/user_icon.jpg">
-            <h3 style="margin-top: 40px;letter-spacing: 1px;">Harsh Vitra <a class="fa fa-facebook icon" href="https://	facebook.com/harshvitra"></a></h3>
-            <p style="letter-spacing: 0.5px;">ITSA President</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
+        <div class="col-lg-6">
           <div class="profile text-center" style="background: url('img/pattern2.jpg') no-repeat;">
             <img class="propic" src="img/user_icon.jpg">
-            <h3 style="margin-top: 40px;letter-spacing: 1px;">Harsh Vitra <a class="fa fa-facebook icon" href="https://	facebook.com/harshvitra"></a></h3>
-            <p style="letter-spacing: 0.5px;">ITSA President</p>
+            <h3 style="margin-top: 40px;letter-spacing: 1px;">Mechanical Department<a class="fa fa-facebook icon" href="https://	facebook.com/harshvitra"></a></h3>
+            <p style="letter-spacing: 0.5px;">President</p>
           </div>
         </div>
       </div>
     </div>
-
 
     <div class="container">
       <!-- Example row of columns -->
