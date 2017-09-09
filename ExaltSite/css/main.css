@@ -1,0 +1,49 @@
+.navbar-nav li a {
+ line-height: 100px;
+}
+/*Hollow Button Code*/
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+
+
+.btn-primary.outline {
+	border: 2px solid #0099cc;
+	color: #0099cc;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #33a6cc;
+	border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
+/*Hollow input type code*/
+.input.outline {
+	background: none;
+	padding: 16px 22px;
+}
+
+
+.input-primary.outline {
+	border: 2px solid #0099cc;
+	color: #0099cc;
+}
+
+.input-primary.outline:hover, .input-primary.outline:focus, .input-primary.outline:active, .input-primary.outline.active, .open > .dropdown-toggle.input-primary {
+	color: #33a6cc;
+	border-color: #33a6cc;
+}
+.input-primary.outline:active, .input-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
